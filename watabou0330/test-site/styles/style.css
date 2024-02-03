@@ -1,20 +1,41 @@
-<!DOCTYPE html>
-<html lang="ja">
-  <head>
-    <meta charset="utf-8">
-    <title>私の練習ページ</title>
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <h1>もじらカッコいい</h1>
-    <img src="images/firefox-icon.png" alt="このアイコン画像が見れない人向けのテキストやで">
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
 
-    <ul>
-      <li>項目</li>
-    </ul>
 
-    <p></p>
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
 
-    <p><a href="https://ichikawapc.github.io/website/">市川プログラミングサークル</a>もみてね。</p>
-  </body>
-</html>
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+
+html {
+  background-color: #00539F;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
